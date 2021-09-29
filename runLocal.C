@@ -10,7 +10,7 @@ int runLocal(TString listOfFiles = "local_filelist.txt", Bool_t bIsPbPb = 1, TSt
   }
 
   // Make the analysis manager and connect event handlers
-  AliAnalysisManager* mgr = new AliAnalysisManager("LocalTrain", "pwg4 mini train");
+  AliAnalysisManager* mgr = new AliAnalysisManager("LocalTrain", "train");
   mgr->SetUseProgressBar(1, 25);
 
   // All analysis tasks are loaded and configured here

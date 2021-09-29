@@ -1,8 +1,8 @@
 #!/bin/bash
 
 rm -f *.root
-rm -f stdout.log
-rm -f stderr.log
+rm -f *.log
+rm -f *~
 
 exit 0
 
