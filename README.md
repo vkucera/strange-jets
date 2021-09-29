@@ -24,7 +24,14 @@
   ```bash
   bash runLocal-(...).sh <number of files>
   ```
-* See the output in `FinalOutputs.root`.
+* See the output in `FinalOutputs.root`:
   ```bash
   rootbrowse FinalOutputs.root
+  ```
+
+## Analyse the analysis output
+
+* Extract raw speactra:
+  ```bash
+  bash draw.sh FinalOutputs.root "" "" "" 0
   ```
